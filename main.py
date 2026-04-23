@@ -2049,7 +2049,7 @@ def generate_order_pdf(
 
         c.setFont(main_font, 11)
         c.setFillColor(colors.green)
-        c.drawString(left_margin, bottom_margin + 20 * mm, "✅")
+        c.drawString(left_margin, bottom_margin + 20 * mm, "☑")
         c.setFillColor(colors.black)
     else:
         # DRAFT watermark
